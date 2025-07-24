@@ -1,0 +1,33 @@
+@import './assets/css/css/main.css';
+
+/* Fancy centered loader */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  z-index: 9999;
+}
+.loader-spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid #e0e0e0;
+  border-top: 8px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+a{
+  text-decoration: none !important;
+}
+.sitename{
+  font-family:"raleway","sans-serif";
+}
